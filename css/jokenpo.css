@@ -1,0 +1,42 @@
+*{
+	box-sizing:	border-box;
+}
+
+body {
+
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    backdrop-filter: blur(3px);  
+    background-image: url('../img/jokenpo.png');
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+
+    width: 500px;
+    height: 200px;
+    background: #fff;
+    border-radius: 10px;
+    
+}
+
+h1 {
+
+    text-align: center;
+}
+
+p {
+
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+
+   margin-left: 220px;
+}
